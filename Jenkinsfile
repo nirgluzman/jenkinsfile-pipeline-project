@@ -8,7 +8,7 @@ pipeline {
                 sh 'python3 pipeline.py'
             }
         }
-        stage('test' {
+        stage('test') {
             steps {
                 echo 'Testing ...'
                 sh 'ls -al'
