@@ -13,6 +13,6 @@ pipeline {
                 echo 'Testing ...'
                 sh 'ls -al'
             }
-        })
+        }
     }
 }
